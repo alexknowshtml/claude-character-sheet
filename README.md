@@ -8,7 +8,7 @@ Based on [How I Trained Claude Code to Think Like My Chief of Staff](https://jfd
 
 **`character-sheet-template.md`** - A blank character sheet with guided prompts for each section: Role, Voice, Worldview, Operating Principles, Tensions, and Backstory.
 
-**`.claude/commands/character-sheet.md`** - A skill that runs a D&D-style interview in Claude Code. It asks you questions one at a time and generates a completed character sheet from your answers.
+**`.claude/skills/character-sheet/SKILL.md`** - A skill that runs a D&D-style interview in Claude Code. It asks you questions one at a time and generates a completed character sheet from your answers.
 
 ## Quick start
 
@@ -17,7 +17,7 @@ Based on [How I Trained Claude Code to Think Like My Chief of Staff](https://jfd
 Paste this into Claude Code:
 
 ```
-Fetch the character sheet skill from https://github.com/alexknowshtml/claude-character-sheet — read the .claude/commands/character-sheet.md file and the character-sheet-template.md file, then use them to interview me and build my character sheet.
+Fetch the character sheet skill from https://github.com/alexknowshtml/claude-character-sheet — read the .claude/skills/character-sheet/SKILL.md file and the character-sheet-template.md file, then use them to interview me and build my character sheet.
 ```
 
 That's it. Claude Code will pull the skill and template from this repo, run the interview, and draft your character sheet. The interview takes about 20 minutes.
