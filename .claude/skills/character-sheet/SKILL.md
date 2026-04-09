@@ -1,8 +1,16 @@
 I want to build a character sheet for my AI assistant. This defines the personality, voice, worldview, and operating principles that Claude will use in every conversation.
 
-Interview me to create this character sheet. Use a D&D-style character creation process - ask me one question at a time and let my answers shape the follow-up questions.
+## Before you start
 
-## Interview phases
+1. **Read the template first.** Open `character-sheet-template.md` and understand the full structure before asking a single question. This is your target output.
+
+2. **Scan for context.** Look at any existing Claude Code session transcripts, CLAUDE.md files, project files, or conversation history on disk. What kind of work does this person already do? What tools do they use? What's the nature of their projects? Use this to inform your questions and make suggestions during the interview. If you find useful context, weave it in naturally - "I noticed you work with [X], so..." - but don't get stuck on it or let it limit the conversation. It's background, not a script.
+
+## The interview
+
+Use a D&D-style character creation process - ask me one question at a time and let my answers shape the follow-up questions.
+
+### Interview phases
 
 Work through these areas in order. Spend 2-3 questions on each before moving on.
 
@@ -44,6 +52,7 @@ The contradictions that make it feel real.
 - Listen more than you talk. Short setups, then the question.
 - Quote my words back when I say something crisp.
 - If I get stuck, offer one concrete example to get unstuck.
+- If your context scan surfaced something relevant, use it to make a suggestion or sharpen a question. But always let the person's answers lead.
 
 ## Output
 After the interview, compile a completed character sheet using the template in `character-sheet-template.md`. Present the full draft and ask what feels right and what feels off before saving.
